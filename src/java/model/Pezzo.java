@@ -45,6 +45,9 @@ public class Pezzo {
     @Column(name = "DESCRIZIONE", nullable = false)
     private String descrizione;
     
+    
+    
+    
     public Pezzo(){}
     
     public Pezzo(String nome, String descrizione){
