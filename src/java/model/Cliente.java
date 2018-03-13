@@ -21,7 +21,6 @@ import javax.persistence.Table;
 @Table(name="CLIENTI")
 
 public class Cliente {
-    @GeneratedValue 
     @Column(name="PIVA")
     @Id
     private String piva;
@@ -104,7 +103,4 @@ public class Cliente {
     public void setAzienda(String azienda) {
         this.azienda = azienda;
     }
-    
-    
-    
 }
